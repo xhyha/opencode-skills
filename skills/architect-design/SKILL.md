@@ -40,7 +40,7 @@ description: 架构设计技能，包含架构模式、设计原则、API设计�
 
 ## 设计原则
 
-### SOLIT原则
+### SOLID原则
 1. **S**ingle Responsibility：单一职责
 2. **O**pen/Closed：开闭原则
 3. **L**iskov Substitution：里氏替换
@@ -52,7 +52,7 @@ description: 架构设计技能，包含架构模式、设计原则、API设计�
 - 模块间：低耦合，通过接口通信
 - 评估标准：修改一个模块不影响其他模块
 
-## API设计觀范
+## API设计规范
 
 ### RESTful API设计
 ```
@@ -111,7 +111,7 @@ HTTP方法：GET(查询) POST(创建) PUT(更新) DELETE(删除)
 
 ### 步骤
 1. 识别核心业务能力
-2. 实义模块边界
+2. 定义模块边界
 3. 绘制模块依赖图
 4. 确定模块接口
 5. 评估拆分粒度
