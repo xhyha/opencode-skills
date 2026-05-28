@@ -24,7 +24,7 @@ git checkout -b feature/[功能名]
 git checkout -b feature/user-login
 
 # 修复分支命名
-git checkout -b bugfix/_问题描述]
+git checkout -b bugfix/[问题描述]
 git checkout -b bugfix/fix-login-crash
 
 # 发布分支命名
@@ -197,7 +197,7 @@ git push origin main
 阶段1: 10% 用户
   └── 监控错误率、性能指标
   
-阶段3: 30% 用户
+阶段2: 30% 用户
   └── 扩大监控范围
   
 阶段3: 50% 用户
